@@ -1,0 +1,47 @@
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap&subset=korean" rel="stylesheet">
+
+div.header{
+    height: 55px;
+    background-color: white;
+}
+
+div.menu{
+    text-align: right;
+}
+
+div.center-body{
+    box-sizing:content-box;
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+div.grid{
+    display: grid;
+    grid-template-columns: 980px 1fr;
+    height: 118px;
+
+}
+
+div.line-grid{
+    display: grid;
+    grid-template-columns: 258px 42px 543px 42px 1fr;
+}
+
+a.font-sample{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+div.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f55759;
+    text-align: center;
+    line-height: 44px;
+
+}
+
+div.font-selection{
+    display: grid;
+    grid-template-columns: 230px 1fr;
+}
